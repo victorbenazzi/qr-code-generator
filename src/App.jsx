@@ -2,6 +2,7 @@ import { useState } from "react";
 import QRCode from "react-qr-code";
 import QRCodeLink from "qrcode";
 import { ToastContainer, toast } from 'react-toastify';
+import logo from './logo.svg';
 
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -47,7 +48,7 @@ export default function App() {
       <header className="h-8 w-full flex flex-col justify-center items-center py-8 border border-stone-800">
         <a href="https://www.victorbenazzi.tech/" target="_blank">
           <img
-            src="/public/logo-victor-benazzi.svg"
+            src={logo}
             alt="Logo victor Benazzi - Web Design"
           />
         </a>
