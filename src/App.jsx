@@ -53,7 +53,7 @@ export default function App() {
           />
         </a>
       </header>
-      <main className="flex flex-col justify-center items-center mt-20 mb-20 px-4">
+      <main className="flex flex-col justify-center items-center md:mt-20 mt-10 px-4 h-full">
         <div className="w-full max-w-[480px] flex flex-col justify-center items-center gap-10">
           <div className="flex flex-col gap-2 items-center w-full">
             <h1 className="text-2xl  md:text-4xl xl:text-5xl font-bold text-center">Gerador de QR Code</h1>
