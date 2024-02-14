@@ -2,7 +2,7 @@ import { useState } from "react";
 import QRCode from "react-qr-code";
 import QRCodeLink from "qrcode";
 import { ToastContainer, toast } from 'react-toastify';
-import logo from './logo.svg';
+import logo from '/logo-victor-benazzi.svg';
 
 import 'react-toastify/dist/ReactToastify.css';
 
