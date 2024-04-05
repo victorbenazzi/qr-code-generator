@@ -54,7 +54,7 @@ export default function App() {
             <h1 className="text-2xl  md:text-4xl xl:text-5xl font-bold text-center">
               Gerador de QR Code
             </h1>
-            <p>Gratuito e não expira!</p>
+            <p>Gratuito, sem propagandas e não expira!</p>
           </div>
           <div className="flex flex-col gap-2 items-center">
             <div className="p-4 border border-stone-800 rounded-lg ">
